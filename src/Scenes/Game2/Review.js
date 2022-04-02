@@ -60,10 +60,10 @@ export default function Review1({ _baseGeo, nextFunc }) {
                             ref={starBaseList[value]}
                             style={{
                                 position: 'absolute',
-                                width: '12%',
-                                height: '12%',
-                                top: (0.1 + 0.15 * (value % 5)) * 100 + '%',
-                                left: (0.33 + parseInt((value / 5)) * 0.15) * 100 + '%',
+                                width: '10%',
+                                height: '10%',
+                                top: (0.16 + 0.13 * (value % 5)) * 100 + '%',
+                                left: (0.35 + parseInt((value / 5)) * 0.15) * 100 + '%',
 
                             }}>
                             < BaseImage

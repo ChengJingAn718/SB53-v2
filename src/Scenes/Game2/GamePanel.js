@@ -340,8 +340,6 @@ export default function Scene2({ finishGame, _baseGeo, _geo, stopSound }) {
                                 })
                                 )
 
-
-
                         }
 
 
