@@ -270,6 +270,7 @@ export default function Scene2({ finishGame, _baseGeo, _geo, stopSound }) {
 
             if (num + 1 == currentNum + stepNumRange) {
 
+                audioList.jumpAudio.currentTime = 0
                 audioList.jumpAudio.play();
 
                 audioList.buzzAudio.pause();
