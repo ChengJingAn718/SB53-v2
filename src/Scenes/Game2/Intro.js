@@ -259,7 +259,7 @@ const BaseScene = React.forwardRef(({ nextFunc, _geo, _baseGeo, showMusicBtn }, 
             }
 
             {
-                isGameFinished &&
+                !isGameFinished &&
                 <Review nextFunc={nextFunc} _baseGeo={_baseGeo} _geo={_geo} />
             }
         </div >

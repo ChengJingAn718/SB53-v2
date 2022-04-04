@@ -25,7 +25,7 @@ export default function Review1({ _baseGeo, nextFunc }) {
                     starBaseList.map((star, index) => {
                         setTimeout(() => {
                             star.current.style.transition = '0.5s'
-                            star.current.style.transform = 'scale(1.25)'
+                            star.current.style.transform = 'scale(1.4)'
                             if (index == 9)
                                 setTimeout(() => {
                                     nextFunc()
@@ -60,10 +60,10 @@ export default function Review1({ _baseGeo, nextFunc }) {
                             ref={starBaseList[value]}
                             style={{
                                 position: 'absolute',
-                                width: '10%',
-                                height: '10%',
-                                top: (0.16 + 0.13 * (value % 5)) * 100 + '%',
-                                left: (0.35 + parseInt((value / 5)) * 0.15) * 100 + '%',
+                                width: '17%',
+                                height: '17%',
+                                top: (0.23 + 0.3 * parseInt((value / 5))) * 100 + '%',
+                                left: (0.1 + (value % 5) * 0.15) * 100 + '%',
 
                             }}>
                             < BaseImage
